@@ -15,5 +15,20 @@ textarea {
 
 input, textarea {
   outline: none;
-  border: 1px solid #e4f7f7;
+  border: 2px solid #e4f7f7;
+  padding:6px;
+  padding-right: 30px;
+}
+
+::placeholder {
+  color: #83e6da ;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #e4f7f7;
+}
+
+::-ms-input-placeholder {
+  color: #e4f7f7;
 }
