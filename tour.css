@@ -1,0 +1,20 @@
+header {
+  height: 150px;
+}
+header img {
+  width: 100px;
+  position: absolute;
+  right: 32.5px;
+  top: 32.5px;
+
+table {
+  width: 400px;
+}
+
+th {
+  text-align: left;
+}
+
+table, th, td {
+  border: 1px solid #e4f7f7;
+}

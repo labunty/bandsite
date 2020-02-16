@@ -1,0 +1,19 @@
+form {
+  width: 300px;
+}
+
+input {
+  width: 100%;
+}
+
+
+textarea {
+  resize: vertical;
+  max-height: 100px;
+}
+
+
+input, textarea {
+  outline: none;
+  border: 1px solid #e4f7f7;
+}
