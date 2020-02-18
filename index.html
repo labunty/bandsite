@@ -44,7 +44,7 @@
           srcset="
           images/bbyellow400.jpg 400w,
           images/bbyellow120.jpg 120w"
-          sizes= "(max-width: 1200px) 400px, 120px"
+          sizes= "(max-width: 1200px) 120px, 400px"
           alt= "blackbear with a yellow background">
           <figcaption> ABOUT US</figcaption><!-- insert appropriate images with srcsets and sizes.
             reate figure and fig caption elements to make an image caption that says 'About Us'-->
@@ -61,7 +61,7 @@
           srcset="
           images/bbblue400.jpg 400w,
           images/bbblue120.jpg 120w"
-          sizes= "(max-width: 1200px) 400px, 120px"
+          sizes= "(max-width: 1200px) 120px, 400px"
           alt= "blackbear sitting on a ledge">
 
           <figcaption> TOUR DATES </figcaption>
@@ -80,8 +80,8 @@
 <figure>
           <img src="images/bbpink400.jpg"
           srcset="images/bbpink400.jpg 400w,
-          images/bbpink1200.jpg 1200w"
-          sizes= "(max-width: 1200px) 400px, 120px"
+          images/bbpink120.jpg 120w"
+          sizes= "(max-width: 1200px) 120px, 400px"
           alt= "blackbear in a hat with sunglasses">
 
           <figcaption> JOIN THE FANCLUB</figcaption><!-- insert appropriate images with srcsets and sizes.
@@ -93,14 +93,15 @@
       </div>
 
       <div class="closing-image">
-<figure>
-        <img srcset="images/last1200.jpg 1200w,
-             images/last400.jpg 400w"
-     sizes="(max-width: 1200px) 400px, 120px"
-     src="images/last1200.jpg" alt="Blackbear in a beanie">
+
+      <picture>
+    <source media="(max-width: 1200px)" srcset="images/last1200.jpg">
+    <source media="(max-width: 400px)"  srcset="images/last400.jpg">
+    <img src="images/last1200.jpg"  alt="Blackbear in a beanie">
+    </picture>
         <!-- insert picture element with an image that is appropriate for large devices and one
          that is cropped to show an important detail for mobile devices (see the Responsive Images lesson for an example)-->
-</figure>
+
       </div>
 
     </main>
