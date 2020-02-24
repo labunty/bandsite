@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Join The Fanclub</title><!--rename this appropriately-->
+    <link href='fan.css' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--insert a link to the stylesheet provided in the root folder you downloaded-->
+  </head>
+  <body>
+
+    <form action="contactform.php" method="post">
+      <input type="text" name="First Name" placeholder="First Name"><br/>
+      <input type="text" name="Last Name" placeholder="Last Name"><br/>
+      <input type="text" name="Email" placeholder="Email"><br/>
+
+    Under 18: <input type="radio" name="Age" value="Under 18">
+  18 and Older: <input type="radio" name="Age" value="18 and Older" checked><br/>
+
+      <textarea name="message" placeholder="How did you hear about blackbear?"></textarea> <br/>
+      <select name="Subscribe">
+
+          <option value="choice1">Sign up for Emails</option>
+            <option value="choice2">Sign up for Texts</option>
+              <option value="choice3">Both</option>
+        </select><br/>
+      <button type= "submit" name="submit">Submit</button>
+
+    </form>
+
+  </body>
+</html>
